@@ -33,9 +33,22 @@ h1{
   text-align: center;
 }
 
-li{
+a{
+  text-decoration: none;
+  color:rgba(255, 255, 255, .7);
+  text-shadow: 1px 1px rgba(0, 0, 0, .4);
+}
+
+.menu{
   display: inline-block;
   padding: 2%;
+}
+.menu:hover{
+  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+a:hover{
+  color: white;
 }
 /* blocco principale */
 .bloccoprinc{
@@ -54,7 +67,17 @@ li{
   border-radius: 1%;
   margin: 1% 0%;
   padding: 2%;
+  position: relative;
 }
+#feed{
+  color: orange;
+  position: absolute;
+  left: 0;
+  top: 26px;
+  padding: 2px;
+  margin-left: 2px;
+}
+
 .secondacol{
   background: white;
   width: 60%;
@@ -65,10 +88,11 @@ li{
 }
 h4{
   color: #777;
-  margin: 1% auto 5%;
+  margin-left: 4px;
 }
 #font{
   font-size: 20px;
+  text-shadow: 1px 1px rgba(0, 0, 0, .3);
 }
 .terzacol{
   width: 15%;
@@ -99,6 +123,8 @@ p{
   padding: 1%;
   text-align: center;
   border-radius: 1%;
+  font-style: italic;
+  font-size: 12px;
 }
 .social{
   width: 60%;
@@ -107,11 +133,9 @@ p{
   margin-bottom: 2%;
   border-radius: 1%;
 }
-i{
-
+.fab{
   font-size: 25px;
   margin: 3% 15%;
   opacity: 0.3;
   cursor: pointer;
-
 }
