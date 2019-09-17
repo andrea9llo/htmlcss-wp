@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #98876f;
+  height: 100vh;
+}
+/* header */
+header{
+  background: lightblue;
+  position: relative;
+  height: 25%;
+  width: 60%;
+  margin: auto;
+  margin-top: 10px;
+  border: solid 3px white;
+}
+h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* blocco navbar */
+.navbar{
+  width: 60%;
+  margin: auto;
+  background: grey;
+  text-align: center;
+}
+
+li{
+  display: inline-block;
+  padding: 2%;
+}
+/* blocco principale */
+.bloccoprinc{
+  width: 60%;
+  margin: auto;
+}
+.bloccoprinc:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.primacol{
+  background: white;
+  width: 15%;
+  float: left;
+  border-radius: 1%;
+  margin: 1% 0%;
+  padding: 2%;
+}
+.secondacol{
+  background: white;
+  width: 60%;
+  float: left;
+  border-radius: 1%;
+  margin: 1% 5%;
+  padding: 2%;
+}
+#font{
+  font-size: 20px;
+}
+.terzacol{
+  width: 15%;
+  float: left;
+  margin: 1% 0%;
+}
+.widget{
+  background: white;
+  margin-bottom: 20px;
+  padding: 2%;
+  border-radius: 1%;
+}
+
+/* blocco footer */
+.footer{
+  width: 60%;
+  margin: auto;
+  margin-bottom: 1px;
+  background: white;
+  color: #777;
+  padding: 1%;
+  text-align: center;
+  border-radius: 1%;
+}
+.social{
+  width: 60%;
+  margin: auto;
+  background: white;
+  margin-bottom: 2%;
+  border-radius: 1%;
+}
+i{
+
+  font-size: 25px;
+  margin: 3% 15%;
+  opacity: 0.3;
+  cursor: pointer;
+
+}
