@@ -18,7 +18,14 @@ header{
   margin-top: 10px;
   border: solid 5px white;
 }
-
+img{
+  position: absolute;
+  width: 70px;
+  height: 55px;
+  top: 27%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 h1{
   color: white;
   font-family: 'Montserrat';
